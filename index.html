@@ -10,44 +10,161 @@
 </head>
 
 <body>
+  <div id="header">
 
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Charity Quinn</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
+    <div class="top">
+
+      <!-- Logo -->
+      <div id="logo">
+        <span class="picProfile"><img id="picProfile" src="./assets/images/Quinn.jpg" alt="nan" /></span>
+        <br>
+        <h1 id="title">Charity Quinn</h1>
+        <p>Full Stack Web Developer</p>
+      </div>
+
+      <!-- Nav -->
+      <nav id="nav">
+        <ul>
+          <li><a href="#top" id="top-link"><span class="icon fa-home">Intro</span></a></li>
+          <li><a href="#portfolio" id="portfolio-link"><span class="icon fa-th">Portfolio</span></a></li>
+          <li><a href="#about" id="about-link"><span class="icon fa-user">About Me</span></a></li>
+          <li><a href="#contact" id="contact-link"><span class="icon fa-envelope">Contact</span></a></li>
+        </ul>
       </nav>
+
     </div>
-  </header>
 
-  <div id="main-container" class="container">
-    <section class="main-section col-sm-12">
-      
-      
-      <h1>About Me</h1>
+    <!-- Social Icons -->
+    <ul class="icons">
+      <li><a href="https://www.linkedin.com/in/CharityQuinnMBA/" class="icon fa-linkedin-square"><span class="label">Linked
+            In</span></a></li>
+      <li><a href="https://github.com/CharityQuinn" class="icon fa-github"><span class="label">Github</span></a></li>
+      <li><a href="https://docs.google.com/document/d/11rGypefeH7c3VnlX_L40HT8weGo2lJMa04XJP61EiE8/edit?usp=sharing"
+          class="icon fas fa-file"><span class="label">Resume</span></a></li>
+    </ul>
 
-      <img src="assets/images/Quinn.jpg.jpg" class="auth-image" alt="Your Name">
+  </div>
 
-      <p>Front-End Developer with a background in management within finance, education and healthcare.
-        I have extensive experience in managing problems, collaborating with others to create solutions, and working
-        with all types of personalities. I have met deadlines and successfully finished projects. I have transitioned back
-        to web development as circumstances in my life allowed for a greater use of my talents.</p>
+  </div>
 
-        <p>I completed the Rutgers Coding Bootcamp where I advanced my skills in html, css, javascript and jQuery. I am passionate about solving challenges from different angles and collaborating with teams to create meaningful
-        web applications.</p>
+  <!-- Main -->
+  <div id="main">
+
+    <!-- Intro -->
+    <section id="top" class="one dark cover">
+      <div class="container">
+
+        <header>
+          <h2 class="alt">Welcome to my portfolio page</h2><br />
+          <h3>My name is Charity Quinn</strong>. <p>I completed the Rutgers Coding Bootcamp where I advanced my skills in HTML, CSS, Javascript, jQuery, Node, MongoDB, and Reacht. I am passionate about solving challenges from different angles and collaborating with teams to create meaningful web applications.</p></h3>
+        </header>
+
+        <footer>
+          <a href="#portfolio" class="button scrolly">My Portfolio!</a>
+        </footer>
+
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="two">
+      <div class="container">
+
+        <header>
+          <h2>Portfolio</h2>
+        </header>
+
+        <div class="row">
+          <div class="col-4 col-12-mobile">
+            <article class="item">
+              <a href="https://booksearch-20.herokuapp.com/" class="image fit"><img src="https://gyazo.com/fb1d85ce06c77ed34c9bf3ec432be108"
+                  alt="Book Search with Google" /></a>
+              <header>
+                <h3>Book Search with Google</h3>
+              </header>
+            </article>
+            <article class="item">
+                <a href="https://plantmastery.herokuapp.com/" class="image fit"><img src="https://i.gyazo.com/6c2209f72739142ffd6d0d58920e6a1b.jpg"
+                  alt="Plant Advisor" /></a>
+              <header>
+                <h3>Plant Advisor</h3>
+              </header>
+            </article>
+          </div>
+          <div class="col-4 col-12-mobile">
+            <article class="item">
+                <a href="https://charityquinn.github.io/clickyend/" class="image fit"><img src="https://i.gyazo.com/0ec31e70e0cb79cb84a7c383af03505d.png"
+                  alt="Flower Clicky Game" /></a>
+              <header>
+                <h3>Flower Clicky Game</h3>
+              </header>
+            </article>
+            <article class="item">
+              <a href="https://plantmastery.herokuapp.com/" class="image fit"><img src="https://user-images.githubusercontent.com/45270593/54211545-e7ca2780-44b7-11e9-9056-3e4d0fb4cb50.gif"
+                  alt="plantMaster" /></a>
+              <header>
+                <h3>Plant Master</h3>
+              </header>
+            </article>
+          </div>
+          <div class="col-4 col-12-mobile">
+            <article class="item">
+              <a href="https://onionscrape-18.herokuapp.com/" class="image fit"><img src="https://i.gyazo.com/2186e5b0f084bc5817315b63691f9765.png" alt="The Onion Scrape" /></a>
+              <header>
+                <h3>The Onion Scrape</h3>
+              </header>
+            </article>
+            <article class="item">
+              <a href="https://young-shore-67305.herokuapp.com/" class="image fit"><img src="https://user-images.githubusercontent.com/45270593/53311293-55524300-387e-11e9-8996-12da3dd3b109.gif"
+                  alt="travel" /></a>
+              <header>
+                <h3>Travel Application</h3>
+              </header>
+            </article>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- About Me -->
+    <section id="about" class="three">
+      <div class="container">
+
+        <header>
+          <h2>About Me</h2>
+        </header>
+
+        <a href="#" class="image featured"><img src="assets/images/ProfilePic.jpg" alt="SecondImage" id="secondImg" /></a>
+
+        <p>Front-End Developer with a background in management within finance, education and healthcare. I have extensive experience in managing problems, collaborating with others to create solutions, and working with all types of personalities. I have met deadlines and successfully finished projects. I have transitioned back to web development as circumstances in my life allowed for a greater use of my talents.</p>
+
         
-        <p>I am looking for a position utilizing the skills I have and those learned in Rutgers Coding Bootcamp. I feel
-        that these skills combined with my tech and leadership skills make me a valuable asset to any development
-        team.</em></p>
 
-     
+      </div>
+    </section>
 
+    <!-- Contact -->
+    <section id="contact" class="four">
+      <div class="container">
+        <header>
+          <h2>Contact</h2>
+        </header>
+
+        <h2> Charity Quinn</h2>
+        <p> 14 Spring Hill Drive, NJ 07052</p>
+
+        <br>
+        Mobile phone: (973)-476-6349
+        <br>
+        <p>Email: charityaquinn@gmail.com</p>
+
+      </div>
     </section>
 
   </div>
 
+  <!-- Footer -->
   <footer>
     <div class="fixed-bottom">
       <div class="container">
@@ -56,3 +173,12 @@
     </div>
   </footer>
 </body>
+
+<!-- Scripts -->
+
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+
+
+
+</html>
