@@ -41,7 +41,7 @@ img#picProfile{
 #secondImg {
 	border-radius: 50%;	
 	width: 10%;
-	rotate: 90%;
+	rotate: 90%; 
 }
 
 ol, ul {
@@ -2110,7 +2110,8 @@ input, select, textarea {
 			position: relative;
 			display: block;
 			font-size: 0.6em;
-			color: rgba(255, 255, 255, 0.5);
+			position: relative;
+			color: #ffff;
 			line-height: 1.25em;
 			margin: 0.5em 0 0 0;
 		}
@@ -2134,7 +2135,7 @@ input, select, textarea {
 			#nav ul li a {
 				display: block;
 				padding: 0.5em 1.5em 0.5em 1.5em;
-				color: rgba(255, 255, 255, 0.5);
+				color: #ffff;
 				text-decoration: none;
 				outline: 0;
 				border: 0;
