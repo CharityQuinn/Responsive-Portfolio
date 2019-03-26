@@ -6,7 +6,7 @@ Portfolio of Apps
 ![image](https://user-images.githubusercontent.com/44899945/55007266-7f01a580-4fb5-11e9-9673-d8b2dfba91c4.png)
 
 About Me
-
+![image](https://user-images.githubusercontent.com/44899945/55007496-e1f33c80-4fb5-11e9-9ffa-c2723b44b6c9.png)
 
 Contact Me
 
